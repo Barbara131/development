@@ -53,9 +53,7 @@ Desktop Screenshot -
 
 ### What I learned
 
-While I carrying put this project, I learnt how to add gradient to a background which can be seen below.
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+While carrying out this project, I learnt how to add gradient to a background which can be seen below.
 
 As seen below:
 
@@ -67,15 +65,15 @@ As seen below:
 
 ### Continued development
 
--I would like to keep practicing on CSS and also add Javascript too so that i can take on improve as well as take on challenging projects which will help me grow.
+-I would like to keep practicing on CSS and also add Javascript too so that I can improve as well as take on challenging projects which will help me grow.
 
 ### Useful resources
 
-- [Resource 1](https://www.w3schools.com/) - This is a helpful resource especially when I needed help in adding a gradients as well as some CSS things. I recommend this resource as it helps in both HTML, CSS, and other things related to web development.
+- [Resource 1](https://www.w3schools.com/) - This is a helpful resource especially when I needed help in adding a gradients as well as some other CSS syntax. I recommend this resource as it helps in both HTML, CSS, and other things related to web development.
 
-- [Resource 2](https://developer.mozilla.org/en-US/) - This is an amazing resource that helped in checking how to remove an outline from a button tag, etc. I recommend this resource as it helps in both HTML, CSS, and other things related to web development.
+- [Resource 2](https://developer.mozilla.org/en-US/) - This is an amazing resource that helped me in checking how to remove an outline from a button tag, etc. I recommend this resource as it helps in both HTML, CSS, and other things related to web development.
 
-- [Resource 3](https://stackoverflow.com/) - This is an exceptional tool that helped in debugging why the codes i wrote in CSS concerning @media for responsiveness wasn't working. It is an exceptional tool that helps you get help when you encounter an issue.
+- [Resource 3](https://stackoverflow.com/) - This is an exceptional tool that helped in debugging why the codes i wrote in CSS concerning @media for responsiveness wasn't working. It is an exceptional tool that helps you get help when you encounter a bug.
 
 ## Author
 
