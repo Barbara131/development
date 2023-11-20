@@ -29,11 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-- Mobile Screenshot
+#### Mobile Screenshot
   ![mobile verion](./assets/images/mobile-screenshot.jpeg)
+  
 ---
 
-- Desktop Screenshot 
+#### Desktop Screenshot 
   ![desktop version](./assets/images/desktop-screenshot.jpeg)
 
 ### Links
