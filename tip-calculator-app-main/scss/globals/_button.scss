@@ -1,0 +1,19 @@
+/** @format */
+
+#tip-select .row .col {
+  background-color: var(--very-dark-cyan);
+  color: var(--White);
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 600;
+
+  &.custom {
+    background-color: var(--very-light-grayish-cyan);
+    color: var(--dark-grayish-cyan);
+  }
+}

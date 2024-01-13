@@ -1,0 +1,95 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./dist/style.css" />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header id="splitter-heading"> SPLI <br />TTER </header>
+      <section class="content">
+        <section id="left-section">
+          <section id="bill-sec">
+            <header> <h5>Bill</h5> </header>
+            <div class="input-container">
+              <div class="icon-left"><img src="./images/icon-dollar.svg" alt="dollar" /></div>
+              <!-- <input type="text" class="search-input" placeholder="Search..."> -->
+              <input type="text" name="bill" class="input input-bill" value="0" id="target" />
+            </div>
+            <span id="detect-err"></span>
+          </section>
+
+          <section id="tip-select">
+            <header>
+              <h5>Select Tip %</h5>
+            </header>
+            <div class="tips">
+              <div class="row">
+                <div class="col">5%</div>
+                <div class="col">10%</div>
+                <div class="col">15%</div>
+                <div class="col">25%</div>
+                <div class="col">50%</div>
+                <div class="col custom">Custom</div>
+              </div>
+            </div>
+          </section>
+
+          <section id="no-of-persons">
+            <header> <h5>Number of People</h5> </header>
+            <div class="input-container">
+              <div class="icon-left"><img src="./images/icon-person.svg" alt="user" /></div>
+              <input type="text" name="no-of-people" class="input" value="0" id="target" />
+            </div>
+            <p id="detect-error"></p>
+          </section>
+        </section>
+
+        <section id="right-section">
+          <section class="up">
+            <div class="row">
+              <div class="col">
+                Tip Amount <br />
+                <span>/ person</span>
+              </div>
+              <div class="col tip-amount">$0.00</div>
+            </div>
+            <div class="row">
+              <div class="col">
+                Total <br />
+                <span>/ person</span>
+              </div>
+              <div class="col total-amount">$0.00</div>
+            </div>
+          </section>
+
+          <section class="down">
+            <div class="row" disabled>RESET</div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="#">Barbara Onyeka Asimana</a>.
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

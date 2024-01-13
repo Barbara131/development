@@ -1,0 +1,247 @@
+/** @format */
+/** @format */
+/** @format */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-grayish-cyan);
+  font-family: "Space Mono", monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 70px 354px 70px;
+}
+main #splitter-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-grayish-cyan);
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+main .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 40px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+main h5 {
+  margin: 0;
+  color: var(--dark-grayish-cyan);
+}
+main #left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  width: 50%;
+}
+main #left-section #bill-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+main #left-section .input-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+main #left-section .input-container .icon-left {
+  position: absolute;
+  padding-left: 16px;
+}
+main #left-section .input-container .input {
+  height: 30px;
+  background-color: var(--very-light-grayish-cyan);
+  flex-grow: 1;
+  padding: 10px 20px 10px 40px;
+  border-style: none;
+  outline: none;
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  color: var(--grayish-cyan);
+  border-radius: 4px;
+}
+main #left-section #tip-select {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+main #left-section #tip-select .tips {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+main #left-section #tip-select .tips .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 6px;
+}
+main #left-section #tip-select .tips .row .col {
+  flex: 0 0 calc(30% - 0px); /* Three columns with a 10px gap */
+}
+main #left-section #no-of-persons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+  width: 100%;
+}
+main #right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  background-color: var(--very-dark-cyan);
+  padding: 40px 30px 20px;
+  gap: 140px;
+  border-radius: 15px;
+}
+main #right-section .up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+main #right-section .up .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #right-section .up .col {
+  color: var(--White);
+  font-weight: 600;
+}
+main #right-section .up .col span {
+  color: var(--grayish-cyan);
+  font-size: 14px;
+}
+main #right-section .up .tip-amount,
+main #right-section .up .total-amount {
+  font-size: xx-large;
+  color: var(--strong-cyan);
+}
+main #right-section .down {
+  width: 100%;
+}
+main #right-section .down .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+  color: var(--very-dark-cyan);
+  background-color: var(--transparent-cyan);
+  border-radius: 4px;
+}
+
+@media (max-width: 475px) {
+  main {
+    margin: 0;
+    gap: 25px;
+  }
+  main #splitter-heading {
+    padding-top: 30px;
+  }
+  main .content {
+    flex-direction: column;
+    padding: 25px;
+    gap: 20;
+  }
+  main #left-section {
+    width: 100%;
+  }
+  main #left-section .input-container .input {
+    width: 100%;
+  }
+  main #left-section #tip-select {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  main #left-section #tip-select .tips {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  main #left-section #tip-select .tips .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  main #left-section #tip-select .tips .row .col {
+    flex: 0 0 calc(47% - 0px); /* Three columns with a 10px gap */
+  }
+  main #right-section {
+    width: auto;
+    padding: 30px 20px 20px;
+    gap: 30px;
+  }
+  main #right-section .up .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  main #right-section .up .col span {
+    font-size: 12px;
+  }
+  main #right-section .up .tip-amount,
+  main #right-section .up .total-amount {
+    font-size: 28px;
+  }
+  main #right-section .down {
+    width: 100%;
+  }
+}
+/** @format */
+:root {
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --grayish-cyan: hsl(184, 14%, 56%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+  --strong-cyan: hsl(172, 67%, 45%);
+  --transparent-cyan: hsla(172, 67%, 45%, 0.24);
+  --shadow: 0 4px 30px 0 hsla(184, 14%, 56%, 0.2);
+}
+
+/** @format */
+#tip-select .row .col {
+  background-color: var(--very-dark-cyan);
+  color: var(--White);
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 600;
+}
+#tip-select .row .col.custom {
+  background-color: var(--very-light-grayish-cyan);
+  color: var(--dark-grayish-cyan);
+}/*# sourceMappingURL=style.css.map */
